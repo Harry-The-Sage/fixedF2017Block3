@@ -6,6 +6,7 @@
 #     move: A function that returns 'c' or 'b'
 ####
 
+<<<<<<< HEAD
 team_name = 'mlem' # Only 10 chars displayed.
 strategy_name = 'melm'
 strategy_description = '1mlem'
@@ -78,3 +79,12 @@ if __name__ == '__main__':
               my_score=0, 
               their_score=0,
               result='b')             
+=======
+team_name = 'Betray' # Only 10 chars displayed.
+strategy_name = 'Always betrays'
+strategy_description = 'Always betrays'
+    
+def move(my_history, their_history, my_score, their_score):
+    #always betrays
+    return 'b'
+>>>>>>> upstream/master

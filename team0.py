@@ -6,6 +6,7 @@
 #     move: A function that returns 'c' or 'b'
 ####
 
+<<<<<<< HEAD
 team_name = 'Farquaad' # Only 10 chars displayed.
 strategy_name = 'Farquaad Star Squad'
 strategy_description = 'Nash Equilibrium Theory'
@@ -74,3 +75,12 @@ if __name__ == '__main__':
               my_score=0, 
               their_score=0,
               result='b')             
+=======
+team_name = 'Collude' # Only 10 chars displayed.
+strategy_name = 'Always Colludes'
+strategy_description = 'Always Colludes'
+    
+def move(my_history, their_history, my_score, their_score):
+    #always collude
+    return 'c'
+>>>>>>> upstream/master
